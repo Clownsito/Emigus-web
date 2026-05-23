@@ -5,8 +5,6 @@ import {
   CheckCircle,
   Clock,
   Droplets,
-  Facebook,
-  Instagram,
   MapPin,
   Menu,
   Phone,
@@ -167,7 +165,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="servicios" className="bg-white px-4 py-16 text-slate-950 sm:px-6 md:py-24">
+      <section
+        id="servicios"
+        className="bg-white px-4 py-16 text-slate-950 sm:px-6 md:py-24"
+      >
         <div className="mx-auto max-w-7xl">
           <p className="text-center text-sm font-black uppercase text-blue-700">
             Servicios EMIGUS
@@ -220,7 +221,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="trabajos" className="bg-slate-950 px-4 py-16 sm:px-6 md:py-24">
+      <section
+        id="trabajos"
+        className="bg-slate-950 px-4 py-16 sm:px-6 md:py-24"
+      >
         <div className="mx-auto max-w-7xl">
           <p className="text-center text-sm font-black uppercase text-green-400">
             Trabajos realizados
@@ -272,7 +276,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="cotizar" className="bg-white px-4 py-16 text-slate-950 sm:px-6 md:py-24">
+      <section
+        id="cotizar"
+        className="bg-white px-4 py-16 text-slate-950 sm:px-6 md:py-24"
+      >
         <div className="mx-auto grid max-w-7xl gap-10 rounded-3xl bg-blue-800 p-6 text-white sm:p-8 md:grid-cols-2 md:p-12">
           <div>
             <p className="text-sm font-black uppercase text-green-300">
@@ -322,7 +329,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="faq" className="bg-slate-100 px-4 py-16 text-slate-950 sm:px-6 md:py-24">
+      <section
+        id="faq"
+        className="bg-slate-100 px-4 py-16 text-slate-950 sm:px-6 md:py-24"
+      >
         <div className="mx-auto max-w-4xl">
           <p className="text-center text-sm font-black uppercase text-green-700">
             Preguntas frecuentes
@@ -406,17 +416,17 @@ export default function Home() {
             href="https://www.instagram.com/"
             target="_blank"
             aria-label="Instagram EMIGUS"
-            className="rounded-full bg-pink-600 p-3 text-white shadow-lg"
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-pink-600 text-sm font-black text-white shadow-lg"
           >
-            <Instagram size={20} />
+            IG
           </a>
           <a
             href="https://www.facebook.com/"
             target="_blank"
             aria-label="Facebook EMIGUS"
-            className="rounded-full bg-blue-600 p-3 text-white shadow-lg"
+            className="flex h-11 w-11 items-center justify-center rounded-full bg-blue-600 text-sm font-black text-white shadow-lg"
           >
-            <Facebook size={20} />
+            FB
           </a>
           <a
             href={`https://wa.me/${WHATSAPP_NUMBER}`}
